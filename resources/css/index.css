@@ -52,6 +52,13 @@ p.med {
   color: var(--gray);
 }
 
+p.light {
+  font-size: 1.13rem;
+  line-height: 1.75rem;
+  color: #fff;
+  margin-top: 15px;
+}
+
 p.sm {
   font-weight: 700;
 }
@@ -158,6 +165,11 @@ main {
   padding-top: 1.5rem;
 }
 
+
+li {
+  padding: 5px;
+}
+
 .card {
   border-radius: 0.5rem;
   padding-inline: 2rem;
@@ -171,6 +183,31 @@ main {
 .intro {
   color: var(--white);
   background: var(--pink-gradient);
+}
+
+.new-modules {
+  color: var(--white);
+  background: radial-gradient(#17bbe4, #372780);
+}
+
+.new-modules-1 {
+  color: var(--white);
+  background: radial-gradient(#e44717, #bb962f);
+}
+
+.new-modules-2 {
+  color: var(--white);
+  background: radial-gradient(#50da11, #1caf72);
+}
+
+.new-modules-3 {
+  color: var(--white);
+  background: radial-gradient(#2511da, #aa33a4);
+}
+
+.new-modules-4 {
+  color: var(--white);
+  background: radial-gradient(#aa33a4, #d12626);
 }
 
 .card {
@@ -215,18 +252,22 @@ footer {
     background-size: max(82.5%, 50rem);
     background-position-y: min(calc(66.5rem - 100vw), -3rem);
   }
+
   .header-cta {
     margin-bottom: calc(100vw * 0.128);
     padding-inline: 10.3%;
   }
+
   .hero {
     padding-inline: 10.3%;
   }
-  .hero > h1 {
+
+  .hero>h1 {
     font-size: 3rem;
     line-height: 3.5rem;
     margin-bottom: 1.6rem;
   }
+
   .courses {
     padding-inline: 10.3%;
   }
@@ -237,21 +278,25 @@ footer {
   .header-cta {
     padding-inline: 2.5rem;
   }
+
   .hero {
     padding-left: 2.5rem;
     max-width: 22rem;
   }
-  .hero > h1 {
+
+  .hero>h1 {
     font-size: 2.5rem;
     line-height: 3.15rem;
     margin-bottom: 1.5rem;
   }
-  .hero > p {
+
+  .hero>p {
     font-size: 1rem;
     line-height: 1.63rem;
     margin-right: 0rem;
     margin-bottom: 1.5rem;
   }
+
   .courses {
     padding-inline: 2.5rem;
   }
@@ -266,13 +311,16 @@ footer {
     background-size: 40rem;
     background-repeat: no-repeat;
   }
+
   .header-cta {
     margin-bottom: 6.18rem;
   }
-  .header-cta > img {
+
+  .header-cta>img {
     height: 1.38rem;
   }
-  .header-cta > button {
+
+  .header-cta>button {
     font-size: 1rem;
     line-height: 1.75rem;
     padding-block: 0.5rem;
@@ -280,54 +328,65 @@ footer {
     border-radius: 1.75rem;
     min-width: 8.75rem;
   }
+
   .hero {
     max-width: 24.88rem;
     padding-bottom: 11.63rem;
   }
-  .hero > p {
+
+  .hero>p {
     font-size: 1rem;
     line-height: 1.63rem;
     margin-right: 0rem;
     margin-bottom: 1.5rem;
     max-width: 51.8vw;
   }
+
   .courses {
     --grid-column-gap: 0.68rem;
     padding-inline: 2.5rem;
     padding-bottom: 5.38rem;
   }
+
   .card {
     padding-top: 3.5rem;
     padding-left: 2rem;
     padding-right: 1.25rem;
     min-height: 0rem;
-    max-height: 10.18rem;
+    max-height: 20.18rem;
   }
-  .card > h3 {
+
+  .card>h3 {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-  .card > h4 {
+
+  .card>h4 {
     font-size: 1.25rem;
     line-height: 1.56rem;
     margin-bottom: 1rem;
   }
-  .card > p.med {
+
+  .card>p.med {
     font-size: 1rem;
     line-height: 1.63rem;
     margin-bottom: 1.5rem;
   }
-  .card > a {
+
+  .card>a {
     font-size: 1.13rem;
     line-height: 1.75rem;
   }
+
   footer {
     padding-inline: 2.5rem;
   }
- footer > img {
+
+  footer>img {
     height: 1.38rem;
   }
-  footer > button.b3 {
+
+  footer>button.b3 {
     font-size: 1rem;
     line-height: 1.75rem;
     padding-block: 0.5rem;
@@ -342,13 +401,15 @@ footer {
   header {
     background-position-y: -2.5rem;
   }
+
   .header-cta {
     margin-bottom: 2.38rem;
   }
+
   .hero {
     max-width: 37%;
     padding-bottom: 7.5rem;
-  }  
+  }
 }
 
 /* Break Point 550px */
@@ -356,24 +417,29 @@ footer {
   header {
     background-image: none;
   }
+
   .mobile-visible {
     display: block;
     max-width: 100%;
     min-width: 18rem;
   }
+
   .header-cta {
     padding-inline: 1rem;
     padding-top: 1rem;
   }
+
   .hero {
     max-width: 80%;
     margin-inline: auto;
     padding-inline: 1rem;
     padding-bottom: 2.88rem;
   }
-  .hero > p {
+
+  .hero>p {
     max-width: 80%;
   }
+
   footer {
     padding-inline: 1rem;
     padding-top: 2.25rem;
@@ -382,6 +448,7 @@ footer {
 
 /* Mobile Screens */
 @media (max-width: 375px) {
+
   header,
   main,
   footer {
@@ -391,15 +458,18 @@ footer {
   .hero {
     max-width: 100%;
   }
-  .hero > p {
+
+  .hero>p {
     max-width: 100%;
   }
+
   .courses {
     --grid-column-gap: 0.68rem;
     row-gap: 2.5rem;
     padding-inline: 1rem;
     padding-top: 0rem;
   }
+
   .card {
     padding-top: 3.5rem;
     padding-left: 2rem;
@@ -408,9 +478,16 @@ footer {
     max-height: 10.18rem;
     min-width: 18rem;
   }
+
   .intro {
     padding-top: 1.5rem;
     padding-left: 1.75rem;
     padding-bottom: 2rem;
   }
+}
+
+.release-notes-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
